@@ -67,6 +67,7 @@ main {
   margin: 30px;
   display: flex;
   align-items: center;
+  transition: 3s;
 }
 
 .red {
@@ -90,6 +91,10 @@ main {
   width: 100%;
 }
 
+.lion:hover {
+  transform: translateY(-5px);
+  transform: rotateY(180deg)
+}
 
 #voltron {
   display: none;
