@@ -34,7 +34,7 @@ class Header extends Component {
                     </li>
                 </ul>
             </nav>
-            <input onCLick={this.toggleShowFunc} alt="menu-icon" type="image" src={hamburger} id="nav-btn"/>
+            <input onClick={this.toggleShowFunc} alt="menu-icon" type="image" src={hamburger} id="nav-btn"/>
         </div>
     </header>
     }
